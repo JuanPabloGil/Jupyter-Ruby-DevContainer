@@ -16,7 +16,7 @@ This setup works seamlessly with Visual Studio Code Dev Containers, allowing you
    Clone your project repository if you haven’t already:
 
    ```bash
-   git clone <your-repository-url>
+   git clone https://github.com/JuanPabloGil/Jupyter-Ruby-DevContainer.git
    cd <your-repository-folder>
    ```
 

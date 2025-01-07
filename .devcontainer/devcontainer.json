@@ -1,0 +1,18 @@
+{
+  "name": "Ruby Jupyter Development",
+  "dockerFile": "Dockerfile",
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "extensions": [
+    "ms-python.python",
+    "rebornix.Ruby",
+    "ms-toolsai.jupyter"
+  ],
+  "forwardPorts": [
+    8888
+  ],
+  "postCreateCommand": "/bin/bash -c 'sudo gem install iruby && sudo iruby register --force && jupyter kernelspec list'",
+  "remoteUser": "vscode",
+  "updateRemoteUserUID": true
+}
